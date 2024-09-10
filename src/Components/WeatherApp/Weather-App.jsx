@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./WeatherApp.css";
+import "./Weatherapp.css";
 import search_icon from "../Assets/search.png";
 import clear_icon from "../Assets/clear.png";
 import cloud_icon from "../Assets/cloud.png";
@@ -68,6 +68,8 @@ export const WeatherApp = () => {
     }
   };
   return (
+    <> 
+    
     <div className="container">
       <div className="top-bar">
         <input type="text" className="cityInput" placeholder="Search" />
@@ -101,6 +103,8 @@ export const WeatherApp = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
-};
+    </div></>
+  )
+}
+
+export default WeatherApp

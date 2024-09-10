@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { WeatherApp } from './Components/WeatherApp/WeatherApp';
+import  WeatherApp  from './Components/WeatherApp/Weather-App';
 
 function App() {
   return (
